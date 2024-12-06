@@ -3,9 +3,9 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : BLAST-MD 
- * @author : DENZO-UCHIWA <https://github.com/DENZO-UCHIWA>
- * @description : BLAST-MD,A Multi-functional whatsapp bot.
+ * @project_name : GHOST-MD 
+ * @author : CYBER GHOST <https://github.com/KIND-GHOST/GHOST-MD-3.git>
+ * @description : GHOST-MD,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 
@@ -36,7 +36,7 @@ cmd({
             desc: "text to speech.",
             category: "downloader",
             filename: __filename,
-            use: '<Hii,this is BLAST-MD>',
+            use: '<Hii,this is GHOST-MD>',
         },
         async(Void, citel, text) => {
             if (!text) return citel.reply('Please give me a Sentence to change into audio.')
@@ -111,7 +111,7 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`😔 Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply('*Downloading:* '+titleYt)
+                citel.reply('*GHOST-MD VIDEO DOWNLOADING......:* '+titleYt)
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
@@ -347,7 +347,7 @@ cmd({
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`😔 Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
-            citel.reply('*Downloadig:* '+titleYt)
+            citel.reply('*GHOST-MD AUDIO DOWNLOADING......:* '+titleYt)
             const stream = ytdl(anu.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
