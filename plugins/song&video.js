@@ -35,7 +35,7 @@ await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:m
 //download audio
 
   footer: tlang().footer,
-                headerType: 4,
+                headerType: 4
             };
             return Void.sendMessage(citel.chat, buttonMessage, {
                 quoted: citel,
