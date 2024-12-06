@@ -16,7 +16,7 @@ let dec = `*👻 GHOST MD Repastitory Information*
 *| ɴᴀᴍᴇ*: ɢʜᴏꜱᴛ-ᴍᴅ
 *| ᴏᴡɴᴇʀ*: ᴄʏʙᴇʀ ɢʜᴏꜱᴛ
 *| ɴᴜᴍʙᴇʀ*: 94741140620
-*| ᴠᴇʀꜱɪᴏɴ*: 1.0.0
+*| ᴠᴇʀꜱɪᴏɴ*: 3.0.0
 
 
 *📡 REPO LINK*
@@ -27,7 +27,7 @@ let dec = `*👻 GHOST MD Repastitory Information*
 
 ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ
 `
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/397000a07a1deb7fad9c2.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/41sdu1.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
