@@ -16,6 +16,10 @@ const ytdl = require('ytdl-secktor')
 const fs = require('fs-extra')
 var videotime = 60000 // 1000 min
 var dlsize = 1000 // 1000mb
+const {cmd , commands} = require('../command')
+
+
+
 /*
     //---------------------------------------------------------------------------
 cmd({
