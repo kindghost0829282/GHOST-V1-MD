@@ -189,7 +189,7 @@ cmd({
             };
             return Void.sendMessage(citel.chat, buttonMessage, {
                 quoted: citel,
-	    }
+	    })
          let urlYt = text;
             if(!text){ text=citel.quoted.text; }
 
