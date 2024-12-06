@@ -4,9 +4,9 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name GHOST-MD BOT",
-    "stop": "pm2 stop GHOST-MD BOT",
-    "restart": "pm2 restart GHOST-MD BOT"
+    "start": "pm2 start index.js --deep-monitoring --attach --name GHOST-MD-BOT",
+    "stop": "pm2 stop GHOST-MD-BOT",
+    "restart": "pm2 restart GHOST-MD-BOT"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
